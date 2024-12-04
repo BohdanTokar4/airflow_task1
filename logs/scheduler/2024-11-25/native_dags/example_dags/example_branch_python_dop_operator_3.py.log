@@ -1,0 +1,15 @@
+[2024-11-25T21:52:15.152+0000] {processor.py:186} INFO - Started process (PID=114) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2024-11-25T21:52:15.153+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2024-11-25T21:52:15.155+0000] {logging_mixin.py:190} INFO - [2024-11-25T21:52:15.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2024-11-25T21:52:15.164+0000] {processor.py:925} INFO - DAG(s) 'example_branch_dop_operator_v3' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2024-11-25T21:52:15.266+0000] {logging_mixin.py:190} INFO - [2024-11-25T21:52:15.266+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_branch_dop_operator_v3
+[2024-11-25T21:52:15.275+0000] {logging_mixin.py:190} INFO - [2024-11-25T21:52:15.275+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:example_branch_dop_operator_v3
+[2024-11-25T21:52:15.283+0000] {logging_mixin.py:190} INFO - [2024-11-25T21:52:15.283+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_branch_dop_operator_v3
+[2024-11-25T21:52:15.294+0000] {logging_mixin.py:190} INFO - [2024-11-25T21:52:15.293+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_branch_dop_operator_v3
+[2024-11-25T21:52:15.307+0000] {logging_mixin.py:190} INFO - [2024-11-25T21:52:15.306+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_branch_dop_operator_v3
+[2024-11-25T21:52:15.313+0000] {logging_mixin.py:190} INFO - [2024-11-25T21:52:15.313+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_branch_dop_operator_v3
+[2024-11-25T21:52:15.322+0000] {logging_mixin.py:190} INFO - [2024-11-25T21:52:15.322+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_branch_dop_operator_v3
+[2024-11-25T21:52:15.323+0000] {logging_mixin.py:190} INFO - [2024-11-25T21:52:15.323+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T21:52:15.336+0000] {logging_mixin.py:190} INFO - [2024-11-25T21:52:15.336+0000] {dag.py:3262} INFO - Creating ORM DAG for example_branch_dop_operator_v3
+[2024-11-25T21:52:15.348+0000] {logging_mixin.py:190} INFO - [2024-11-25T21:52:15.348+0000] {dag.py:4180} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2024-11-25 21:51:00+00:00, run_after=2024-11-25 21:52:00+00:00
+[2024-11-25T21:52:15.366+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.219 seconds
